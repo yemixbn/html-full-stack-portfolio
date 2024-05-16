@@ -1,0 +1,179 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    background-color: #004d40; /* Dark teal color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#hero {
+    background-color: #00897b; /* Lighter teal, similar to the header */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 16px;
+}
+
+@media (min-width: 600px) {
+    header {
+        padding: 20px 10%; /* Responsive padding */
+    }
+}
+
+#about-me {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    font-family: Arial, sans-serif; 
+}
+
+#about-me h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#technical-skills {
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+}
+
+#technical-skills h3 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+#technical-skills ul {
+    list-style-type: none; 
+    padding: 0; 
+    column-count: 2; 
+    column-gap: 20px; 
+}
+
+#technical-skills li {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+
+#portfolio {
+    background-color: #f8f8f8; 
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card {
+    background-color: #ffffff; 
+    border: 2px solid #d81b60; 
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.project-card h3 {
+    color: #333;
+}
+
+.project-card p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.btn, .read-more{
+    display: block; 
+    width: calc(40px); 
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #d81b60; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.github-repo{
+    width: 40px; 
+    margin-top: 5px;
+    background-color: #d81b60; 
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #b0004d; 
+}
+
+.github-repo {
+    background-color: #007bff;
+}
+
+.github-repo:hover {
+    background-color: #0056b3; 
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ce1515;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
